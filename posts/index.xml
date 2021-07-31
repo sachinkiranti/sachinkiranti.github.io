@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Playground</title>
-    <link>https://examplesite.com/posts/</link>
+    <link>https://sachinkiranti.github.io/posts/</link>
     <description>Recent content in Posts on Playground</description>
     <image>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://sachinkiranti.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://sachinkiranti.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© sachinkiranti 2021</copyright>
-    <lastBuildDate>Sat, 31 Jul 2021 12:58:27 +0545</lastBuildDate><atom:link href="https://examplesite.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jul 2021 12:58:27 +0545</lastBuildDate><atom:link href="https://sachinkiranti.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>https://examplesite.com/posts/hello-world/</link>
+      <link>https://sachinkiranti.github.io/posts/hello-world/</link>
       <pubDate>Sat, 31 Jul 2021 12:58:27 +0545</pubDate>
       
-      <guid>https://examplesite.com/posts/hello-world/</guid>
+      <guid>https://sachinkiranti.github.io/posts/hello-world/</guid>
       <description></description>
     </item>
     
