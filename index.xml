@@ -10,7 +10,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© sachinkiranti 2021</copyright>
-    <lastBuildDate>Wed, 04 Aug 2021 23:15:04 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Aug 2021 10:56:18 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Composer - composer.lock</title>
+      <link>https://www.raisachin.com.np/posts/composer-lock/</link>
+      <pubDate>Sun, 08 Aug 2021 10:56:18 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/posts/composer-lock/</guid>
+      <description>If you&amp;rsquo;re familiar with composer then, you will always find composer.lock in the root source of your project. This file contains the list of installed dependencies of your project.
+composer.lock ensures everyone working on your project is running with the same dependencies versions. Now, we get the idea of why commit the composer.lock file to git.
+It may confuse you that we are already using a specific version in composer.json. Yes, we do, but the dependencies also require other dependencies that are not bound by these constraints.</description>
+    </item>
+    
     <item>
       <title>When And How to Use Database Transactions in Laravel</title>
       <link>https://www.raisachin.com.np/posts/when-how-to-use-database-transactions-in-laravel/</link>

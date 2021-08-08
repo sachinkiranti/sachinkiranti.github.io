@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.raisachin.com.np/posts/composer-lock/</loc>
+    <lastmod>2021-08-08T10:56:18+05:45</lastmod>
+  </url><url>
     <loc>https://www.raisachin.com.np/posts/</loc>
-    <lastmod>2021-08-04T23:15:04+05:45</lastmod>
+    <lastmod>2021-08-08T10:56:18+05:45</lastmod>
   </url><url>
     <loc>https://www.raisachin.com.np/</loc>
-    <lastmod>2021-08-04T23:15:04+05:45</lastmod>
+    <lastmod>2021-08-08T10:56:18+05:45</lastmod>
   </url><url>
     <loc>https://www.raisachin.com.np/posts/when-how-to-use-database-transactions-in-laravel/</loc>
     <lastmod>2021-08-04T23:15:04+05:45</lastmod>
