@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Debug on Rai Sachin</title>
+    <link>https://www.raisachin.com.np/tags/debug/</link>
+    <description>Recent content in Debug on Rai Sachin</description>
+    <image>
+      <url>https://www.raisachin.com.np/img/logo.png</url>
+      <link>https://www.raisachin.com.np/img/logo.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© sachinkiranti 2021</copyright>
+    <lastBuildDate>Sat, 31 Jul 2021 19:10:07 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/debug/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Turn on Error Reporting in Wordpress</title>
+      <link>https://www.raisachin.com.np/posts/how-to-turn-on-error-reporting-in-wordpress/</link>
+      <pubDate>Sat, 31 Jul 2021 19:10:07 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/posts/how-to-turn-on-error-reporting-in-wordpress/</guid>
+      <description>You got an error. The first thing we do is to check the error logs or reports. The logs or reports make it the developer or any tech guy easy to solve the problems.
+Today we will enable some of the hidden variables which can help us debug the WordPress errors more easily. These variables are mostly enabled only for the development process, not on production websites. Let’s get to the point now.</description>
+    </item>
+    
+  </channel>
+</rss>

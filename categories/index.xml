@@ -5,10 +5,38 @@
     <link>https://www.raisachin.com.np/categories/</link>
     <description>Recent content in Categories on Rai Sachin</description>
     <image>
-      <url>https://www.raisachin.com.np/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://www.raisachin.com.np/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://www.raisachin.com.np/img/logo.png</url>
+      <link>https://www.raisachin.com.np/img/logo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© sachinkiranti 2021</copyright><atom:link href="https://www.raisachin.com.np/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© sachinkiranti 2021</copyright>
+    <lastBuildDate>Sun, 08 Aug 2021 10:56:18 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Composer</title>
+      <link>https://www.raisachin.com.np/categories/composer/</link>
+      <pubDate>Sun, 08 Aug 2021 10:56:18 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/categories/composer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laravel</title>
+      <link>https://www.raisachin.com.np/categories/laravel/</link>
+      <pubDate>Wed, 04 Aug 2021 23:15:04 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/categories/laravel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WordPress</title>
+      <link>https://www.raisachin.com.np/categories/wordpress/</link>
+      <pubDate>Sat, 31 Jul 2021 19:10:07 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/categories/wordpress/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
