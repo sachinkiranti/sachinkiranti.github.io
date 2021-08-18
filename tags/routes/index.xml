@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Laravel on Rai Sachin</title>
-    <link>https://www.raisachin.com.np/tags/laravel/</link>
-    <description>Recent content in Laravel on Rai Sachin</description>
+    <title>Routes on Rai Sachin</title>
+    <link>https://www.raisachin.com.np/tags/routes/</link>
+    <description>Recent content in Routes on Rai Sachin</description>
     <image>
       <url>https://www.raisachin.com.np/img/logo.png</url>
       <link>https://www.raisachin.com.np/img/logo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© sachinkiranti 2021</copyright>
-    <lastBuildDate>Wed, 18 Aug 2021 12:31:17 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Aug 2021 12:31:17 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/routes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Laravel Useful Route Flags and Options</title>
       <link>https://www.raisachin.com.np/posts/laravel-useful-route-flags-and-options/</link>
@@ -19,17 +19,6 @@
       <guid>https://www.raisachin.com.np/posts/laravel-useful-route-flags-and-options/</guid>
       <description>Laravel makes adding a new route a piece of cake 😎. To view all the routes we have been using php artisan route:list and this list becomes quite messy and hard to read as the route keeps growing.
 Some of the common options Using path and name options 1 2 3  php artisan route:list --path=&amp;#34;login&amp;#34; php artisan route:list --name=&amp;#34;login&amp;#34;   &amp;ndash;compact flag 1  php artisan route:list --compact   This command shows only Method, URI and Action.</description>
-    </item>
-    
-    <item>
-      <title>When And How to Use Database Transactions in Laravel</title>
-      <link>https://www.raisachin.com.np/posts/when-how-to-use-database-transactions-in-laravel/</link>
-      <pubDate>Wed, 04 Aug 2021 23:15:04 +0545</pubDate>
-      
-      <guid>https://www.raisachin.com.np/posts/when-how-to-use-database-transactions-in-laravel/</guid>
-      <description>Hello Artisan 😎 , Database transactions are often an overlooked feature, but Laravel makes it so effortless.
-One of the powerful ways to ensure data integrity is database transactions. Database transactions give a powerful ability to safely perform multiple database queries in a single transaction. If all queries run smoothly, then only it will commit otherwise it will roll back.
-For Example, we have an application where we create a user, assign a role to the created user, and add KYC (Know your customer).</description>
     </item>
     
   </channel>
