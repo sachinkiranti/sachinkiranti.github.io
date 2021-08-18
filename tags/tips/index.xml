@@ -12,6 +12,15 @@
     <copyright>© sachinkiranti 2021</copyright>
     <lastBuildDate>Wed, 18 Aug 2021 12:31:17 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Composer🌙Useful Commands</title>
+      <link>https://www.raisachin.com.np/posts/composer-useful-commands/</link>
+      <pubDate>Mon, 16 Aug 2021 13:59:55 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/posts/composer-useful-commands/</guid>
+      <description>View the config list 1  composer config --list    Checking common errors to help debug problems 1  composer diagnose    Show the list of outdated packages 1  composer outdated    Show information about installed dependencies 1  composer info   1  composer show   For specific dependencies 1  composer show intervention/image   Dependencies available 1  composer show --all    Navigation Show dependency homepage or repo url 1  composer browser intervention/image --show   Navigate to dependency homepage url 1  composer browser intervention/image --homepage   Navigate to dependency repo url 1  composer browser intervention/image    To be continued &amp;hellip; 😄</description>
+    </item>
+    
+    <item>
       <title>Laravel Useful Route Flags and Options</title>
       <link>https://www.raisachin.com.np/posts/laravel-useful-route-flags-and-options/</link>
       <pubDate>Wed, 18 Aug 2021 12:31:17 +0545</pubDate>
