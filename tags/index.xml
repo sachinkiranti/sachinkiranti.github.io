@@ -10,31 +10,67 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© sachinkiranti 2021</copyright>
-    <lastBuildDate>Sun, 08 Aug 2021 10:56:18 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 17:09:23 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Composer</title>
-      <link>https://www.raisachin.com.np/tags/composer/</link>
-      <pubDate>Sun, 08 Aug 2021 10:56:18 +0545</pubDate>
+      <title>Cpanel</title>
+      <link>https://www.raisachin.com.np/tags/cpanel/</link>
+      <pubDate>Mon, 04 Apr 2022 17:09:23 +0545</pubDate>
       
-      <guid>https://www.raisachin.com.np/tags/composer/</guid>
+      <guid>https://www.raisachin.com.np/tags/cpanel/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tips</title>
-      <link>https://www.raisachin.com.np/tags/tips/</link>
-      <pubDate>Sun, 08 Aug 2021 10:56:18 +0545</pubDate>
+      <title>Shared Hosting</title>
+      <link>https://www.raisachin.com.np/tags/shared-hosting/</link>
+      <pubDate>Mon, 04 Apr 2022 17:09:23 +0545</pubDate>
       
-      <guid>https://www.raisachin.com.np/tags/tips/</guid>
+      <guid>https://www.raisachin.com.np/tags/shared-hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>https://www.raisachin.com.np/tags/ssh/</link>
+      <pubDate>Mon, 04 Apr 2022 17:09:23 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Laravel</title>
       <link>https://www.raisachin.com.np/tags/laravel/</link>
-      <pubDate>Wed, 04 Aug 2021 23:15:04 +0545</pubDate>
+      <pubDate>Wed, 18 Aug 2021 12:31:17 +0545</pubDate>
       
       <guid>https://www.raisachin.com.np/tags/laravel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Routes</title>
+      <link>https://www.raisachin.com.np/tags/routes/</link>
+      <pubDate>Wed, 18 Aug 2021 12:31:17 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/tags/routes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>https://www.raisachin.com.np/tags/tips/</link>
+      <pubDate>Wed, 18 Aug 2021 12:31:17 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Composer</title>
+      <link>https://www.raisachin.com.np/tags/composer/</link>
+      <pubDate>Mon, 16 Aug 2021 13:59:55 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/tags/composer/</guid>
       <description></description>
     </item>
     

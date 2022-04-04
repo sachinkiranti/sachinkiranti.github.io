@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SSH on Rai Sachin</title>
+    <link>https://www.raisachin.com.np/tags/ssh/</link>
+    <description>Recent content in SSH on Rai Sachin</description>
+    <image>
+      <url>https://www.raisachin.com.np/img/logo.png</url>
+      <link>https://www.raisachin.com.np/img/logo.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© sachinkiranti 2021</copyright>
+    <lastBuildDate>Mon, 04 Apr 2022 17:09:23 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get SSH access to your shared hosted cpanel</title>
+      <link>https://www.raisachin.com.np/posts/how-to-get-ssh-access-to-your-shared-hosted-cpanel/</link>
+      <pubDate>Mon, 04 Apr 2022 17:09:23 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/posts/how-to-get-ssh-access-to-your-shared-hosted-cpanel/</guid>
+      <description>SSH, or Secure Shell, is used to log into a remote machine and execute commands and many other things like viewing CPU usage and performance. It creates a secure connection between two computers through a encrypted tunnel.
+To make a SSH connection we need an SSH Client in our computer. PUTTY and WinSCP are two popular SSH solutions for windows environment. As Both Linux and macOs have their own built-in terminals so we won&amp;rsquo;t necessarily need to download an SSH Client.</description>
+    </item>
+    
+  </channel>
+</rss>

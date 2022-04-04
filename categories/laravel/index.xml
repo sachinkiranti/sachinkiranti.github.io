@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© sachinkiranti 2021</copyright>
-    <lastBuildDate>Wed, 04 Aug 2021 23:15:04 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/categories/laravel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Aug 2021 12:31:17 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/categories/laravel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Laravel Useful Route Flags and Options</title>
+      <link>https://www.raisachin.com.np/posts/laravel-useful-route-flags-and-options/</link>
+      <pubDate>Wed, 18 Aug 2021 12:31:17 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/posts/laravel-useful-route-flags-and-options/</guid>
+      <description>Laravel makes adding a new route a piece of cake 😎. To view all the routes we have been using php artisan route:list and this list becomes quite messy and hard to read as the route keeps growing.
+Some of the common options Using path and name options 1 2 3  php artisan route:list --path=&amp;#34;login&amp;#34; php artisan route:list --name=&amp;#34;login&amp;#34;   &amp;ndash;compact flag 1  php artisan route:list --compact   This command shows only Method, URI and Action.</description>
+    </item>
+    
     <item>
       <title>When And How to Use Database Transactions in Laravel</title>
       <link>https://www.raisachin.com.np/posts/when-how-to-use-database-transactions-in-laravel/</link>

@@ -10,7 +10,36 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© sachinkiranti 2021</copyright>
-    <lastBuildDate>Sun, 08 Aug 2021 10:56:18 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 17:09:23 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get SSH access to your shared hosted cpanel</title>
+      <link>https://www.raisachin.com.np/posts/how-to-get-ssh-access-to-your-shared-hosted-cpanel/</link>
+      <pubDate>Mon, 04 Apr 2022 17:09:23 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/posts/how-to-get-ssh-access-to-your-shared-hosted-cpanel/</guid>
+      <description>SSH, or Secure Shell, is used to log into a remote machine and execute commands and many other things like viewing CPU usage and performance. It creates a secure connection between two computers through a encrypted tunnel.
+To make a SSH connection we need an SSH Client in our computer. PUTTY and WinSCP are two popular SSH solutions for windows environment. As Both Linux and macOs have their own built-in terminals so we won&amp;rsquo;t necessarily need to download an SSH Client.</description>
+    </item>
+    
+    <item>
+      <title>Composer🌙Useful Commands</title>
+      <link>https://www.raisachin.com.np/posts/composer-useful-commands/</link>
+      <pubDate>Mon, 16 Aug 2021 13:59:55 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/posts/composer-useful-commands/</guid>
+      <description>View the config list 1  composer config --list    Checking common errors to help debug problems 1  composer diagnose    Show the list of outdated packages 1  composer outdated    Show information about installed dependencies 1  composer info   1  composer show   For specific dependencies 1  composer show intervention/image   Dependencies available 1  composer show --all    Navigation Show dependency homepage or repo url 1  composer browse intervention/image --show   Navigate to dependency homepage url 1  composer browse intervention/image --homepage   Navigate to dependency repo url 1  composer browse intervention/image    To be continued &amp;hellip; 😄</description>
+    </item>
+    
+    <item>
+      <title>Laravel Useful Route Flags and Options</title>
+      <link>https://www.raisachin.com.np/posts/laravel-useful-route-flags-and-options/</link>
+      <pubDate>Wed, 18 Aug 2021 12:31:17 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/posts/laravel-useful-route-flags-and-options/</guid>
+      <description>Laravel makes adding a new route a piece of cake 😎. To view all the routes we have been using php artisan route:list and this list becomes quite messy and hard to read as the route keeps growing.
+Some of the common options Using path and name options 1 2 3  php artisan route:list --path=&amp;#34;login&amp;#34; php artisan route:list --name=&amp;#34;login&amp;#34;   &amp;ndash;compact flag 1  php artisan route:list --compact   This command shows only Method, URI and Action.</description>
+    </item>
+    
     <item>
       <title>Composer | composer.lock</title>
       <link>https://www.raisachin.com.np/posts/composer-lock/</link>
