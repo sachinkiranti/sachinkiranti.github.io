@@ -48,7 +48,7 @@ To make a SSH connection we need an SSH Client in our computer. PUTTY and WinSCP
       
       <guid>https://www.raisachin.com.np/posts/how-to-cause-an-intentional-error-php/</guid>
       <description>Hello, the topic about getting an intentional error is not so often you look up to but sometimes you need it to make sure the error is handled correctly. Let’s dive into the content directly.
-1  trigger_error(&amp;#34;Error Triggered!&amp;#34;, E_USER_ERROR);   Doc Link
+1  trigger_error(&amp;#34;Error Triggered!&amp;#34;, E_USER_ERROR);   DOC Reference
 1 2 3 4 5 6 7  &amp;lt;?php try { trigger_error(&amp;#34;Error Triggered!&amp;#34;, E_USER_ERROR); } catch(Exception $e) { echo &amp;#39;Message: &amp;#39; .$e-&amp;gt;getMessage(); }   Above code will give you an triggered fatal error.</description>
     </item>
     
