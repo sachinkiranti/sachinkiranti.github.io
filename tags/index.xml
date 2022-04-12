@@ -10,11 +10,29 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© sachinkiranti 2021</copyright>
-    <lastBuildDate>Mon, 04 Apr 2022 17:09:23 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Apr 2022 23:55:18 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PHP</title>
+      <link>https://www.raisachin.com.np/tags/php/</link>
+      <pubDate>Thu, 07 Apr 2022 23:55:18 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>https://www.raisachin.com.np/tags/tips/</link>
+      <pubDate>Thu, 07 Apr 2022 23:55:18 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/tags/tips/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Cpanel</title>
       <link>https://www.raisachin.com.np/tags/cpanel/</link>
-      <pubDate>Mon, 04 Apr 2022 17:09:23 +0545</pubDate>
+      <pubDate>Tue, 05 Apr 2022 16:43:38 +0545</pubDate>
       
       <guid>https://www.raisachin.com.np/tags/cpanel/</guid>
       <description></description>
@@ -23,7 +41,7 @@
     <item>
       <title>Shared Hosting</title>
       <link>https://www.raisachin.com.np/tags/shared-hosting/</link>
-      <pubDate>Mon, 04 Apr 2022 17:09:23 +0545</pubDate>
+      <pubDate>Tue, 05 Apr 2022 16:43:38 +0545</pubDate>
       
       <guid>https://www.raisachin.com.np/tags/shared-hosting/</guid>
       <description></description>
@@ -32,7 +50,7 @@
     <item>
       <title>SSH</title>
       <link>https://www.raisachin.com.np/tags/ssh/</link>
-      <pubDate>Mon, 04 Apr 2022 17:09:23 +0545</pubDate>
+      <pubDate>Tue, 05 Apr 2022 16:43:38 +0545</pubDate>
       
       <guid>https://www.raisachin.com.np/tags/ssh/</guid>
       <description></description>
@@ -53,15 +71,6 @@
       <pubDate>Wed, 18 Aug 2021 12:31:17 +0545</pubDate>
       
       <guid>https://www.raisachin.com.np/tags/routes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tips</title>
-      <link>https://www.raisachin.com.np/tags/tips/</link>
-      <pubDate>Wed, 18 Aug 2021 12:31:17 +0545</pubDate>
-      
-      <guid>https://www.raisachin.com.np/tags/tips/</guid>
       <description></description>
     </item>
     

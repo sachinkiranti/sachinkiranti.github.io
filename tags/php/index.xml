@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PHP on Rai Sachin</title>
+    <link>https://www.raisachin.com.np/tags/php/</link>
+    <description>Recent content in PHP on Rai Sachin</description>
+    <image>
+      <url>https://www.raisachin.com.np/img/logo.png</url>
+      <link>https://www.raisachin.com.np/img/logo.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© sachinkiranti 2021</copyright>
+    <lastBuildDate>Thu, 07 Apr 2022 23:55:18 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Cause an Intentional Error Php</title>
+      <link>https://www.raisachin.com.np/posts/how-to-cause-an-intentional-error-php/</link>
+      <pubDate>Thu, 07 Apr 2022 23:55:18 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/posts/how-to-cause-an-intentional-error-php/</guid>
+      <description>Hello, the topic about getting an intentional error is not so often you look up to but sometimes you need it to make sure the error is handled correctly. Let’s dive into the content directly.
+1  trigger_error(&amp;#34;Error Triggered!&amp;#34;, E_USER_ERROR);   Doc Link
+1 2 3 4 5 6 7  &amp;lt;?php try { trigger_error(&amp;#34;Error Triggered!&amp;#34;, E_USER_ERROR); } catch(Exception $e) { echo &amp;#39;Message: &amp;#39; .$e-&amp;gt;getMessage(); }   Above code will give you an triggered fatal error.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.raisachin.com.np/posts/how-to-enable-php-extensions-from-whm/</loc>
+    <lastmod>2022-04-05T16:43:38+05:45</lastmod>
+  </url><url>
     <loc>https://www.raisachin.com.np/posts/how-to-get-ssh-access-to-your-shared-hosted-cpanel/</loc>
     <lastmod>2022-04-04T17:09:23+05:45</lastmod>
   </url><url>
@@ -9,28 +12,40 @@
     <lastmod>2021-08-16T13:59:55+05:45</lastmod>
   </url><url>
     <loc>https://www.raisachin.com.np/categories/</loc>
-    <lastmod>2022-04-04T17:09:23+05:45</lastmod>
+    <lastmod>2022-04-07T23:55:18+05:45</lastmod>
   </url><url>
-    <loc>https://www.raisachin.com.np/categories/composer/</loc>
-    <lastmod>2022-04-04T17:09:23+05:45</lastmod>
+    <loc>https://www.raisachin.com.np/posts/how-to-cause-an-intentional-error-php/</loc>
+    <lastmod>2022-04-07T23:55:18+05:45</lastmod>
   </url><url>
-    <loc>https://www.raisachin.com.np/tags/cpanel/</loc>
-    <lastmod>2022-04-04T17:09:23+05:45</lastmod>
+    <loc>https://www.raisachin.com.np/tags/php/</loc>
+    <lastmod>2022-04-07T23:55:18+05:45</lastmod>
+  </url><url>
+    <loc>https://www.raisachin.com.np/categories/php/</loc>
+    <lastmod>2022-04-07T23:55:18+05:45</lastmod>
   </url><url>
     <loc>https://www.raisachin.com.np/posts/</loc>
-    <lastmod>2022-04-04T17:09:23+05:45</lastmod>
+    <lastmod>2022-04-07T23:55:18+05:45</lastmod>
   </url><url>
     <loc>https://www.raisachin.com.np/</loc>
-    <lastmod>2022-04-04T17:09:23+05:45</lastmod>
-  </url><url>
-    <loc>https://www.raisachin.com.np/tags/shared-hosting/</loc>
-    <lastmod>2022-04-04T17:09:23+05:45</lastmod>
-  </url><url>
-    <loc>https://www.raisachin.com.np/tags/ssh/</loc>
-    <lastmod>2022-04-04T17:09:23+05:45</lastmod>
+    <lastmod>2022-04-07T23:55:18+05:45</lastmod>
   </url><url>
     <loc>https://www.raisachin.com.np/tags/</loc>
-    <lastmod>2022-04-04T17:09:23+05:45</lastmod>
+    <lastmod>2022-04-07T23:55:18+05:45</lastmod>
+  </url><url>
+    <loc>https://www.raisachin.com.np/tags/tips/</loc>
+    <lastmod>2022-04-07T23:55:18+05:45</lastmod>
+  </url><url>
+    <loc>https://www.raisachin.com.np/tags/cpanel/</loc>
+    <lastmod>2022-04-05T16:43:38+05:45</lastmod>
+  </url><url>
+    <loc>https://www.raisachin.com.np/categories/hosting/</loc>
+    <lastmod>2022-04-05T16:43:38+05:45</lastmod>
+  </url><url>
+    <loc>https://www.raisachin.com.np/tags/shared-hosting/</loc>
+    <lastmod>2022-04-05T16:43:38+05:45</lastmod>
+  </url><url>
+    <loc>https://www.raisachin.com.np/tags/ssh/</loc>
+    <lastmod>2022-04-05T16:43:38+05:45</lastmod>
   </url><url>
     <loc>https://www.raisachin.com.np/tags/laravel/</loc>
     <lastmod>2021-08-18T12:31:17+05:45</lastmod>
@@ -44,10 +59,10 @@
     <loc>https://www.raisachin.com.np/tags/routes/</loc>
     <lastmod>2021-08-18T12:31:17+05:45</lastmod>
   </url><url>
-    <loc>https://www.raisachin.com.np/tags/tips/</loc>
-    <lastmod>2021-08-18T12:31:17+05:45</lastmod>
-  </url><url>
     <loc>https://www.raisachin.com.np/tags/composer/</loc>
+    <lastmod>2021-08-16T13:59:55+05:45</lastmod>
+  </url><url>
+    <loc>https://www.raisachin.com.np/categories/composer/</loc>
     <lastmod>2021-08-16T13:59:55+05:45</lastmod>
   </url><url>
     <loc>https://www.raisachin.com.np/posts/composer-lock/</loc>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>SSH on Rai Sachin</title>
-    <link>https://www.raisachin.com.np/tags/ssh/</link>
-    <description>Recent content in SSH on Rai Sachin</description>
+    <title>Hosting on Rai Sachin</title>
+    <link>https://www.raisachin.com.np/categories/hosting/</link>
+    <description>Recent content in Hosting on Rai Sachin</description>
     <image>
       <url>https://www.raisachin.com.np/img/logo.png</url>
       <link>https://www.raisachin.com.np/img/logo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© sachinkiranti 2021</copyright>
-    <lastBuildDate>Tue, 05 Apr 2022 16:43:38 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Apr 2022 16:43:38 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/categories/hosting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Enable Php Extensions From Whm</title>
       <link>https://www.raisachin.com.np/posts/how-to-enable-php-extensions-from-whm/</link>
