@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Plugin on Rai Sachin</title>
+    <link>https://www.raisachin.com.np/tags/plugin/</link>
+    <description>Recent content in Plugin on Rai Sachin</description>
+    <image>
+      <url>https://www.raisachin.com.np/img/logo.png</url>
+      <link>https://www.raisachin.com.np/img/logo.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© sachinkiranti 2021</copyright>
+    <lastBuildDate>Fri, 22 Apr 2022 20:16:29 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recover Lost Laravel Migration Files From an Existing Database</title>
+      <link>https://www.raisachin.com.np/posts/how-to-recover-lost-laravel-migration-files-from-an-existing-database/</link>
+      <pubDate>Fri, 22 Apr 2022 20:16:29 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/posts/how-to-recover-lost-laravel-migration-files-from-an-existing-database/</guid>
+      <description>While working on one of my client projects, I was shocked to see as there were no migration files in a Laravel project. They provided me the live database to work with and it was somehow okay for now but we all know what migration files do in Laravel. It was itching me and I started researching for generating the migration files by using our existing database. Here comes to the rescue, one of the packages by Bennett Treptow was just what I was looking for.</description>
+    </item>
+    
+  </channel>
+</rss>

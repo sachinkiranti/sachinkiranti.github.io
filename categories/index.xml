@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© sachinkiranti 2021</copyright>
-    <lastBuildDate>Thu, 07 Apr 2022 23:55:18 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Apr 2022 20:16:29 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Laravel</title>
+      <link>https://www.raisachin.com.np/categories/laravel/</link>
+      <pubDate>Fri, 22 Apr 2022 20:16:29 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/categories/laravel/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>PHP</title>
       <link>https://www.raisachin.com.np/categories/php/</link>
@@ -26,15 +35,6 @@
       <pubDate>Tue, 05 Apr 2022 16:43:38 +0545</pubDate>
       
       <guid>https://www.raisachin.com.np/categories/hosting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Laravel</title>
-      <link>https://www.raisachin.com.np/categories/laravel/</link>
-      <pubDate>Wed, 18 Aug 2021 12:31:17 +0545</pubDate>
-      
-      <guid>https://www.raisachin.com.np/categories/laravel/</guid>
       <description></description>
     </item>
     
