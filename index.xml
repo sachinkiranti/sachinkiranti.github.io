@@ -9,7 +9,7 @@
       <link>https://www.raisachin.com.np/img/logo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© sachinkiranti 2021</copyright>
+    <copyright>© sachinkiranti 2022</copyright>
     <lastBuildDate>Fri, 22 Apr 2022 20:16:29 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recover Lost Laravel Migration Files From an Existing Database</title>
@@ -121,6 +121,30 @@ Today we will enable some of the hidden variables which can help us debug the Wo
       <guid>https://www.raisachin.com.np/about/</guid>
       <description>Hi! 👋 I’m Rai Sachin, a full-stack developer focused on creating great web experiences. Programming has been my passion since the day I started coding and build the first program with computers. I enjoy coding and building new system websites.
 Apart from coding, I love music and traveling. Music and Travelling have been my best side buddy. Playing guitar and singing old songs makes my mind free. Traveling to different places makes my soul fresh.</description>
+    </item>
+    
+    <item>
+      <title>Plugins</title>
+      <link>https://www.raisachin.com.np/plugins/</link>
+      <pubDate>Sat, 31 Jul 2021 13:21:14 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/plugins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress Password Hash Generator</title>
+      <link>https://www.raisachin.com.np/plugins/wp-password-hash-generator/</link>
+      <pubDate>Sat, 31 Jul 2021 13:21:14 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/plugins/wp-password-hash-generator/</guid>
+      <description>This plugin simply generates the wordpress hash password and user password update sql query.
+Installation Download the zip file of the repository or clone the repository in your wp-content/plugins
+  Download the zip file
+As traditionally upload the plugin to your wordpress site and activate 😃 .
+  Clone the repository
+1  git clone git@github.com:sachinkiranti/wp-password-hash-generator.git   Activate it!
+  Usage Add the shortcode to wordpress POST/PAGE or anywhere you want to :</description>
     </item>
     
     <item>
