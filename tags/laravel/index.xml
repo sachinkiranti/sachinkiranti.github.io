@@ -9,7 +9,7 @@
       <link>https://www.raisachin.com.np/img/logo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>© sachinkiranti 2022</copyright>
+    <copyright>© sachinkiranti 2021-2022</copyright>
     <lastBuildDate>Fri, 22 Apr 2022 20:16:29 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recover Lost Laravel Migration Files From an Existing Database</title>
