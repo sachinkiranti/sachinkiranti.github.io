@@ -51,6 +51,16 @@ To make a SSH connection we need an SSH Client in our computer. PUTTY and WinSCP
     </item>
     
     <item>
+      <title>Contact Us</title>
+      <link>https://www.raisachin.com.np/contact/</link>
+      <pubDate>Sun, 24 Apr 2022 20:42:46 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/contact/</guid>
+      <description>You can contact me here!
+&amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;fullname&amp;quot;&amp;gt; &amp;lt;input type=&amp;quot;email&amp;quot; name=&amp;quot;email&amp;quot;&amp;gt; &amp;lt;select name=&amp;quot;query-type&amp;quot;&amp;gt; &amp;lt;option value=&amp;quot;general&amp;quot;&amp;gt;General&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;quot;work&amp;quot;&amp;gt;Work&amp;lt;/option&amp;gt; &amp;lt;option value=&amp;quot;project-discussion&amp;quot;&amp;gt;Project Discussion&amp;lt;/option&amp;gt; &amp;lt;/select&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;message&amp;quot;&amp;gt; &amp;lt;button type=&amp;quot;submit&amp;quot;&amp;gt;Send&amp;lt;/button&amp;gt;  </description>
+    </item>
+    
+    <item>
       <title>Wordpress Password Hash Generator</title>
       <link>https://www.raisachin.com.np/plugins/wp-password-hash-generator/</link>
       <pubDate>Sun, 24 Apr 2022 20:42:46 +0545</pubDate>
