@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>WordPress on Rai Sachin</title>
+    <title>Wordpress on Rai Sachin</title>
     <link>https://www.raisachin.com.np/tags/wordpress/</link>
-    <description>Recent content in WordPress on Rai Sachin</description>
+    <description>Recent content in Wordpress on Rai Sachin</description>
     <image>
       <url>https://www.raisachin.com.np/img/logo.png</url>
       <link>https://www.raisachin.com.np/img/logo.png</link>
@@ -29,6 +29,21 @@ Today we will enable some of the hidden variables which can help us debug the Wo
       <guid>https://www.raisachin.com.np/posts/why-wordpress-prefer-array-instead-of-short-array-syntax/</guid>
       <description>Short array syntax [] was introduced a while back when PHP 5.4 was released. Basically it is ability to define arrays using [] instead of array().
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  &amp;lt;?php $arr1 = array( &amp;#39;motto&amp;#39; =&amp;gt; &amp;#39;learning is fun.&amp;#39;, &amp;#39;url&amp;#39; =&amp;gt; &amp;#39;raisachin.com.np&amp;#39; ); $arr2 = [ &amp;#39;motto&amp;#39; =&amp;gt; &amp;#39;learning is fun.&amp;#39;, &amp;#39;url&amp;#39; =&amp;gt; &amp;#39;raisachin.com.np&amp;#39; ]; echo &amp;#39;&amp;lt;pre&amp;gt;&amp;#39;; print_r($arr1); echo &amp;#39;&amp;lt;/pre&amp;gt;&amp;#39;;   Using any of the above will result the same output.</description>
+    </item>
+    
+    <item>
+      <title>Wordpress Password Hash Generator</title>
+      <link>https://www.raisachin.com.np/plugins/wp-password-hash-generator/</link>
+      <pubDate>Sat, 31 Jul 2021 13:21:14 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/plugins/wp-password-hash-generator/</guid>
+      <description>This plugin simply generates the wordpress hash password and user password update sql query.
+Installation Download the zip file of the repository or clone the repository in your wp-content/plugins
+  Download the zip file
+As traditionally upload the plugin to your wordpress site and activate 😃 .
+  Clone the repository
+1  git clone git@github.com:sachinkiranti/wp-password-hash-generator.git   Activate it!
+  Usage Add the shortcode to wordpress POST/PAGE or anywhere you want to :</description>
     </item>
     
   </channel>

@@ -20,5 +20,20 @@
       <description>While working on one of my client projects, I was shocked to see as there were no migration files in a Laravel project. They provided me the live database to work with and it was somehow okay for now but we all know what migration files do in Laravel. It was itching me and I started researching for generating the migration files by using our existing database. Here comes to the rescue, one of the packages by Bennett Treptow was just what I was looking for.</description>
     </item>
     
+    <item>
+      <title>Wordpress Password Hash Generator</title>
+      <link>https://www.raisachin.com.np/plugins/wp-password-hash-generator/</link>
+      <pubDate>Sat, 31 Jul 2021 13:21:14 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/plugins/wp-password-hash-generator/</guid>
+      <description>This plugin simply generates the wordpress hash password and user password update sql query.
+Installation Download the zip file of the repository or clone the repository in your wp-content/plugins
+  Download the zip file
+As traditionally upload the plugin to your wordpress site and activate 😃 .
+  Clone the repository
+1  git clone git@github.com:sachinkiranti/wp-password-hash-generator.git   Activate it!
+  Usage Add the shortcode to wordpress POST/PAGE or anywhere you want to :</description>
+    </item>
+    
   </channel>
 </rss>
