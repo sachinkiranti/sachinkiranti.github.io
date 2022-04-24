@@ -10,11 +10,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© sachinkiranti 2022</copyright>
-    <lastBuildDate>Sat, 31 Jul 2021 13:21:14 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/plugins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Apr 2022 20:42:46 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/plugins/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wordpress Password Hash Generator</title>
       <link>https://www.raisachin.com.np/plugins/wp-password-hash-generator/</link>
-      <pubDate>Sat, 31 Jul 2021 13:21:14 +0545</pubDate>
+      <pubDate>Sun, 24 Apr 2022 20:42:46 +0545</pubDate>
       
       <guid>https://www.raisachin.com.np/plugins/wp-password-hash-generator/</guid>
       <description>This plugin simply generates the wordpress hash password and user password update sql query.
