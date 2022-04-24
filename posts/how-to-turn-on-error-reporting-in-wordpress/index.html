@@ -104,23 +104,23 @@ How to Turn on Error Reporting in Wordpress
 <p>You need to add the following lines of code in the <strong>wp-config.php</strong> file in WordPress.</p>
 <p><img loading=lazy src=https://www.raisachin.com.np/img/wp-config-path.png#center alt="wp-config.php File Path" title="File path">
 </p>
-<div class=highlight><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">7
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt id=1><a style=outline:none;text-decoration:none;color:inherit href=#1>1</a>
+</span><span class=lnt id=2><a style=outline:none;text-decoration:none;color:inherit href=#2>2</a>
+</span><span class=lnt id=3><a style=outline:none;text-decoration:none;color:inherit href=#3>3</a>
+</span><span class=lnt id=4><a style=outline:none;text-decoration:none;color:inherit href=#4>4</a>
+</span><span class=lnt id=5><a style=outline:none;text-decoration:none;color:inherit href=#5>5</a>
+</span><span class=lnt id=6><a style=outline:none;text-decoration:none;color:inherit href=#6>6</a>
+</span><span class=lnt id=7><a style=outline:none;text-decoration:none;color:inherit href=#7>7</a>
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span> 
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-php data-lang=php><span class=o>&lt;?</span><span class=nx>php</span> 
 
-<span style=color:#a6e22e>define</span>(<span style=color:#e6db74>&#39;WP_DEBUG&#39;</span>, <span style=color:#66d9ef>true</span>); <span style=color:#75715e>// update false to true
-</span><span style=color:#75715e></span><span style=color:#a6e22e>define</span>(<span style=color:#e6db74>&#39;WP_DEBUG_LOG&#39;</span>, <span style=color:#66d9ef>true</span>);
-<span style=color:#a6e22e>define</span>(<span style=color:#e6db74>&#39;WP_DEBUG_DISPLAY&#39;</span>, <span style=color:#66d9ef>false</span>);
-<span style=color:#f92672>@</span><span style=color:#a6e22e>ini_set</span>(<span style=color:#e6db74>&#39;display_errors&#39;</span>, <span style=color:#ae81ff>0</span>);
+<span class=nx>define</span><span class=p>(</span><span class=s1>&#39;WP_DEBUG&#39;</span><span class=p>,</span> <span class=k>true</span><span class=p>);</span> <span class=c1>// update false to true
+</span><span class=c1></span><span class=nx>define</span><span class=p>(</span><span class=s1>&#39;WP_DEBUG_LOG&#39;</span><span class=p>,</span> <span class=k>true</span><span class=p>);</span>
+<span class=nx>define</span><span class=p>(</span><span class=s1>&#39;WP_DEBUG_DISPLAY&#39;</span><span class=p>,</span> <span class=k>false</span><span class=p>);</span>
+<span class=o>@</span><span class=nx>ini_set</span><span class=p>(</span><span class=s1>&#39;display_errors&#39;</span><span class=p>,</span> <span class=mi>0</span><span class=p>);</span>
 
 </code></pre></td></tr></table>
 </div>

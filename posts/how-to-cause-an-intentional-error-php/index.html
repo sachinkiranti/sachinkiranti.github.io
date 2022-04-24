@@ -103,65 +103,65 @@ How to Cause an Intentional Error Php
 </div>
 </header>
 <div class=post-content><p>Hello, the topic about getting an intentional error is not so often you look up to but sometimes you need it to make sure the error is handled correctly. Let’s dive into the content directly.</p>
-<div class=highlight><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt id=1><a style=outline:none;text-decoration:none;color:inherit href=#1>1</a>
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=color:#a6e22e>trigger_error</span>(<span style=color:#e6db74>&#34;Error Triggered!&#34;</span>, <span style=color:#a6e22e>E_USER_ERROR</span>);
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-php data-lang=php><span class=nx>trigger_error</span><span class=p>(</span><span class=s2>&#34;Error Triggered!&#34;</span><span class=p>,</span> <span class=nx>E_USER_ERROR</span><span class=p>);</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><a href=https://www.php.net/manual/en/function.trigger-error.php title="PHP's Doc Link">DOC Reference</a></p>
-<div class=highlight><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">7
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt id=1><a style=outline:none;text-decoration:none;color:inherit href=#1>1</a>
+</span><span class=lnt id=2><a style=outline:none;text-decoration:none;color:inherit href=#2>2</a>
+</span><span class=lnt id=3><a style=outline:none;text-decoration:none;color:inherit href=#3>3</a>
+</span><span class=lnt id=4><a style=outline:none;text-decoration:none;color:inherit href=#4>4</a>
+</span><span class=lnt id=5><a style=outline:none;text-decoration:none;color:inherit href=#5>5</a>
+</span><span class=lnt id=6><a style=outline:none;text-decoration:none;color:inherit href=#6>6</a>
+</span><span class=lnt id=7><a style=outline:none;text-decoration:none;color:inherit href=#7>7</a>
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span> 
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-php data-lang=php><span class=o>&lt;?</span><span class=nx>php</span> 
 
-<span style=color:#66d9ef>try</span> {
-  <span style=color:#a6e22e>trigger_error</span>(<span style=color:#e6db74>&#34;Error Triggered!&#34;</span>, <span style=color:#a6e22e>E_USER_ERROR</span>);
-} <span style=color:#66d9ef>catch</span>(<span style=color:#a6e22e>Exception</span> $e) {
-  <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;Message: &#39;</span> <span style=color:#f92672>.</span>$e<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>getMessage</span>();
-}
+<span class=k>try</span> <span class=p>{</span>
+  <span class=nx>trigger_error</span><span class=p>(</span><span class=s2>&#34;Error Triggered!&#34;</span><span class=p>,</span> <span class=nx>E_USER_ERROR</span><span class=p>);</span>
+<span class=p>}</span> <span class=k>catch</span><span class=p>(</span><span class=nx>Exception</span> <span class=nv>$e</span><span class=p>)</span> <span class=p>{</span>
+  <span class=k>echo</span> <span class=s1>&#39;Message: &#39;</span> <span class=o>.</span><span class=nv>$e</span><span class=o>-&gt;</span><span class=na>getMessage</span><span class=p>();</span>
+<span class=p>}</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Above code will give you an triggered fatal error.</p>
 <p><img loading=lazy src=https://www.raisachin.com.np/img/intentional-error-1.png alt="Intentional Error" title="Intentional Error">
 </p>
 <p>Adding below lines to your code will help you display all the errors and warnings.</p>
-<div class=highlight><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt id=1><a style=outline:none;text-decoration:none;color:inherit href=#1> 1</a>
+</span><span class=lnt id=2><a style=outline:none;text-decoration:none;color:inherit href=#2> 2</a>
+</span><span class=lnt id=3><a style=outline:none;text-decoration:none;color:inherit href=#3> 3</a>
+</span><span class=lnt id=4><a style=outline:none;text-decoration:none;color:inherit href=#4> 4</a>
+</span><span class=lnt id=5><a style=outline:none;text-decoration:none;color:inherit href=#5> 5</a>
+</span><span class=lnt id=6><a style=outline:none;text-decoration:none;color:inherit href=#6> 6</a>
+</span><span class=lnt id=7><a style=outline:none;text-decoration:none;color:inherit href=#7> 7</a>
+</span><span class=lnt id=8><a style=outline:none;text-decoration:none;color:inherit href=#8> 8</a>
+</span><span class=lnt id=9><a style=outline:none;text-decoration:none;color:inherit href=#9> 9</a>
+</span><span class=lnt id=10><a style=outline:none;text-decoration:none;color:inherit href=#10>10</a>
+</span><span class=lnt id=11><a style=outline:none;text-decoration:none;color:inherit href=#11>11</a>
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=color:#f92672>&lt;?</span><span style=color:#a6e22e>php</span> 
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-php data-lang=php><span class=o>&lt;?</span><span class=nx>php</span> 
 
-<span style=color:#a6e22e>ini_set</span> (<span style=color:#e6db74>&#39;display_errors&#39;</span>, <span style=color:#ae81ff>1</span>);
-<span style=color:#a6e22e>ini_set</span> (<span style=color:#e6db74>&#39;display_startup_errors&#39;</span>, <span style=color:#ae81ff>1</span>);
-<span style=color:#a6e22e>error_reporting</span> (<span style=color:#66d9ef>E_ALL</span>);
+<span class=nx>ini_set</span> <span class=p>(</span><span class=s1>&#39;display_errors&#39;</span><span class=p>,</span> <span class=mi>1</span><span class=p>);</span>
+<span class=nx>ini_set</span> <span class=p>(</span><span class=s1>&#39;display_startup_errors&#39;</span><span class=p>,</span> <span class=mi>1</span><span class=p>);</span>
+<span class=nx>error_reporting</span> <span class=p>(</span><span class=k>E_ALL</span><span class=p>);</span>
 
-<span style=color:#66d9ef>try</span> {
-  <span style=color:#a6e22e>trigger_error</span>(<span style=color:#e6db74>&#34;Error Triggered!&#34;</span>, <span style=color:#a6e22e>E_USER_ERROR</span>);
-} <span style=color:#66d9ef>catch</span>(<span style=color:#a6e22e>Exception</span> $e) {
-  <span style=color:#66d9ef>echo</span> <span style=color:#e6db74>&#39;Message: &#39;</span> <span style=color:#f92672>.</span>$e<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>getMessage</span>();
-}
+<span class=k>try</span> <span class=p>{</span>
+  <span class=nx>trigger_error</span><span class=p>(</span><span class=s2>&#34;Error Triggered!&#34;</span><span class=p>,</span> <span class=nx>E_USER_ERROR</span><span class=p>);</span>
+<span class=p>}</span> <span class=k>catch</span><span class=p>(</span><span class=nx>Exception</span> <span class=nv>$e</span><span class=p>)</span> <span class=p>{</span>
+  <span class=k>echo</span> <span class=s1>&#39;Message: &#39;</span> <span class=o>.</span><span class=nv>$e</span><span class=o>-&gt;</span><span class=na>getMessage</span><span class=p>();</span>
+<span class=p>}</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img loading=lazy src=https://www.raisachin.com.np/img/intentional-error-2.png alt="Intentional Error" title="Intentional Error">

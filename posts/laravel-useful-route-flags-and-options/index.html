@@ -123,39 +123,39 @@ Laravel Useful Route Flags and Options
 </p>
 <h3 id=some-of-the-common-options>Some of the common options<a hidden class=anchor aria-hidden=true href=#some-of-the-common-options>#</a></h3>
 <h4 id=using-path-and-name-options>Using path and name options<a hidden class=anchor aria-hidden=true href=#using-path-and-name-options>#</a></h4>
-<div class=highlight><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt id=1><a style=outline:none;text-decoration:none;color:inherit href=#1>1</a>
+</span><span class=lnt id=2><a style=outline:none;text-decoration:none;color:inherit href=#2>2</a>
+</span><span class=lnt id=3><a style=outline:none;text-decoration:none;color:inherit href=#3>3</a>
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>php artisan route:list --path<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;login&#34;</span>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-shell data-lang=shell>php artisan route:list --path<span class=o>=</span><span class=s2>&#34;login&#34;</span>
 
-php artisan route:list --name<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;login&#34;</span>
+php artisan route:list --name<span class=o>=</span><span class=s2>&#34;login&#34;</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><img loading=lazy src=https://www.raisachin.com.np/img/route-path-list.png#center alt="Image path for route list with options" title="php artisan route:list --path=`api`">
 </p>
 <h3 id=--compact-flag>&ndash;compact flag<a hidden class=anchor aria-hidden=true href=#--compact-flag>#</a></h3>
-<div class=highlight><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt id=1><a style=outline:none;text-decoration:none;color:inherit href=#1>1</a>
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>php artisan route:list --compact
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-shell data-lang=shell>php artisan route:list --compact
 </code></pre></td></tr></table>
 </div>
 </div><p>This command shows only Method, URI and Action.</p>
 <p><img loading=lazy src=https://www.raisachin.com.np/img/route-compact-flag.png#center alt="Using compact flag" title="php artisan route:list --compact">
 </p>
 <h3 id=specify-columns>Specify columns<a hidden class=anchor aria-hidden=true href=#specify-columns>#</a></h3>
-<div class=highlight><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt id=1><a style=outline:none;text-decoration:none;color:inherit href=#1>1</a>
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>php artisan route:list --columns<span style=color:#f92672>=</span>Method,URI,Name,Middleware
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-shell data-lang=shell>php artisan route:list --columns<span class=o>=</span>Method,URI,Name,Middleware
 </code></pre></td></tr></table>
 </div>
 </div><p><img loading=lazy src=https://www.raisachin.com.np/img/route-specify-columns.png#center alt="Specify columns" title="php artisan route:list --columns=Method,URI,Name,Middleware">

@@ -105,81 +105,81 @@ When And How to Use Database Transactions in Laravel
 <div class=post-content><p>Hello <strong>Artisan</strong> 😎 , <strong>Database transactions</strong> are often an overlooked feature, but <strong>Laravel</strong> makes it so effortless.</p>
 <p>One of the powerful ways to ensure data integrity is database transactions. Database transactions give a powerful ability to safely perform multiple database queries in a single transaction. If all queries run smoothly, then only it will commit otherwise it will roll back.</p>
 <p>For Example, we have an application where we <em><strong>create a user, assign a role to the created user, and add <strong>KYC</strong> (Know your customer)</strong></em>.</p>
-<div class=highlight><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt id=1><a style=outline:none;text-decoration:none;color:inherit href=#1> 1</a>
+</span><span class=lnt id=2><a style=outline:none;text-decoration:none;color:inherit href=#2> 2</a>
+</span><span class=lnt id=3><a style=outline:none;text-decoration:none;color:inherit href=#3> 3</a>
+</span><span class=lnt id=4><a style=outline:none;text-decoration:none;color:inherit href=#4> 4</a>
+</span><span class=lnt id=5><a style=outline:none;text-decoration:none;color:inherit href=#5> 5</a>
+</span><span class=lnt id=6><a style=outline:none;text-decoration:none;color:inherit href=#6> 6</a>
+</span><span class=lnt id=7><a style=outline:none;text-decoration:none;color:inherit href=#7> 7</a>
+</span><span class=lnt id=8><a style=outline:none;text-decoration:none;color:inherit href=#8> 8</a>
+</span><span class=lnt id=9><a style=outline:none;text-decoration:none;color:inherit href=#9> 9</a>
+</span><span class=lnt id=10><a style=outline:none;text-decoration:none;color:inherit href=#10>10</a>
+</span><span class=lnt id=11><a style=outline:none;text-decoration:none;color:inherit href=#11>11</a>
+</span><span class=lnt id=12><a style=outline:none;text-decoration:none;color:inherit href=#12>12</a>
+</span><span class=lnt id=13><a style=outline:none;text-decoration:none;color:inherit href=#13>13</a>
+</span><span class=lnt id=14><a style=outline:none;text-decoration:none;color:inherit href=#14>14</a>
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=color:#75715e># Creating a User
-</span><span style=color:#75715e></span>$user <span style=color:#f92672>=</span> <span style=color:#a6e22e>User</span><span style=color:#f92672>::</span><span style=color:#a6e22e>create</span>([
-	<span style=color:#75715e>// user data
-</span><span style=color:#75715e></span>]);
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-php data-lang=php><span class=c1># Creating a User
+</span><span class=c1></span><span class=nv>$user</span> <span class=o>=</span> <span class=nx>User</span><span class=o>::</span><span class=na>create</span><span class=p>([</span>
+	<span class=c1>// user data
+</span><span class=c1></span><span class=p>]);</span>
 
 
-<span style=color:#75715e># Assigning a Role
-</span><span style=color:#75715e></span>$user<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>assignRole</span>(<span style=color:#e6db74>&#39;customer&#39;</span>);
+<span class=c1># Assigning a Role
+</span><span class=c1></span><span class=nv>$user</span><span class=o>-&gt;</span><span class=na>assignRole</span><span class=p>(</span><span class=s1>&#39;customer&#39;</span><span class=p>);</span>
 
-<span style=color:#75715e># Creating kyc information for the user
-</span><span style=color:#75715e></span><span style=color:#a6e22e>Kyc</span><span style=color:#f92672>::</span><span style=color:#a6e22e>create</span>([
-	<span style=color:#e6db74>&#39;user_id&#39;</span> <span style=color:#f92672>=&gt;</span> $user<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>id</span>,
-	<span style=color:#75715e>// other info
-</span><span style=color:#75715e></span>]);
+<span class=c1># Creating kyc information for the user
+</span><span class=c1></span><span class=nx>Kyc</span><span class=o>::</span><span class=na>create</span><span class=p>([</span>
+	<span class=s1>&#39;user_id&#39;</span> <span class=o>=&gt;</span> <span class=nv>$user</span><span class=o>-&gt;</span><span class=na>id</span><span class=p>,</span>
+	<span class=c1>// other info
+</span><span class=c1></span><span class=p>]);</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>This all looks good. We don&rsquo;t want any user without role and KYC but what if the user is not created. If the user is not created, we cannot assign a role and add KYC. This will cause errors in our system.</p>
 <p>Here comes the <strong>Database transactions</strong> to the rescue :</p>
-<div class=highlight><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">18
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt id=1><a style=outline:none;text-decoration:none;color:inherit href=#1> 1</a>
+</span><span class=lnt id=2><a style=outline:none;text-decoration:none;color:inherit href=#2> 2</a>
+</span><span class=lnt id=3><a style=outline:none;text-decoration:none;color:inherit href=#3> 3</a>
+</span><span class=lnt id=4><a style=outline:none;text-decoration:none;color:inherit href=#4> 4</a>
+</span><span class=lnt id=5><a style=outline:none;text-decoration:none;color:inherit href=#5> 5</a>
+</span><span class=lnt id=6><a style=outline:none;text-decoration:none;color:inherit href=#6> 6</a>
+</span><span class=lnt id=7><a style=outline:none;text-decoration:none;color:inherit href=#7> 7</a>
+</span><span class=lnt id=8><a style=outline:none;text-decoration:none;color:inherit href=#8> 8</a>
+</span><span class=lnt id=9><a style=outline:none;text-decoration:none;color:inherit href=#9> 9</a>
+</span><span class=lnt id=10><a style=outline:none;text-decoration:none;color:inherit href=#10>10</a>
+</span><span class=lnt id=11><a style=outline:none;text-decoration:none;color:inherit href=#11>11</a>
+</span><span class=lnt id=12><a style=outline:none;text-decoration:none;color:inherit href=#12>12</a>
+</span><span class=lnt id=13><a style=outline:none;text-decoration:none;color:inherit href=#13>13</a>
+</span><span class=lnt id=14><a style=outline:none;text-decoration:none;color:inherit href=#14>14</a>
+</span><span class=lnt id=15><a style=outline:none;text-decoration:none;color:inherit href=#15>15</a>
+</span><span class=lnt id=16><a style=outline:none;text-decoration:none;color:inherit href=#16>16</a>
+</span><span class=lnt id=17><a style=outline:none;text-decoration:none;color:inherit href=#17>17</a>
+</span><span class=lnt id=18><a style=outline:none;text-decoration:none;color:inherit href=#18>18</a>
 </span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=color:#a6e22e>DB</span><span style=color:#f92672>::</span><span style=color:#a6e22e>transaction</span>(<span style=color:#66d9ef>function</span>()
-{
-    <span style=color:#75715e># Creating a User
-</span><span style=color:#75715e></span>	$user <span style=color:#f92672>=</span> <span style=color:#a6e22e>User</span><span style=color:#f92672>::</span><span style=color:#a6e22e>create</span>([
-		<span style=color:#75715e>// user data
-</span><span style=color:#75715e></span>	]);
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-php data-lang=php><span class=nx>DB</span><span class=o>::</span><span class=na>transaction</span><span class=p>(</span><span class=k>function</span><span class=p>()</span>
+<span class=p>{</span>
+    <span class=c1># Creating a User
+</span><span class=c1></span>	<span class=nv>$user</span> <span class=o>=</span> <span class=nx>User</span><span class=o>::</span><span class=na>create</span><span class=p>([</span>
+		<span class=c1>// user data
+</span><span class=c1></span>	<span class=p>]);</span>
 
 
-	<span style=color:#75715e># Assigning a Role
-</span><span style=color:#75715e></span>	$user<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>assignRole</span>(<span style=color:#e6db74>&#39;customer&#39;</span>);
+	<span class=c1># Assigning a Role
+</span><span class=c1></span>	<span class=nv>$user</span><span class=o>-&gt;</span><span class=na>assignRole</span><span class=p>(</span><span class=s1>&#39;customer&#39;</span><span class=p>);</span>
 
-	<span style=color:#75715e># Creating kyc information for the user
-</span><span style=color:#75715e></span>	<span style=color:#a6e22e>Kyc</span><span style=color:#f92672>::</span><span style=color:#a6e22e>create</span>([
-		<span style=color:#e6db74>&#39;user_id&#39;</span> <span style=color:#f92672>=&gt;</span> $user<span style=color:#f92672>-&gt;</span><span style=color:#a6e22e>id</span>,
-		<span style=color:#75715e>// other info
-</span><span style=color:#75715e></span>	]);
-});
+	<span class=c1># Creating kyc information for the user
+</span><span class=c1></span>	<span class=nx>Kyc</span><span class=o>::</span><span class=na>create</span><span class=p>([</span>
+		<span class=s1>&#39;user_id&#39;</span> <span class=o>=&gt;</span> <span class=nv>$user</span><span class=o>-&gt;</span><span class=na>id</span><span class=p>,</span>
+		<span class=c1>// other info
+</span><span class=c1></span>	<span class=p>]);</span>
+<span class=p>});</span>
 
 </code></pre></td></tr></table>
 </div>
