@@ -10,11 +10,29 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© sachinkiranti 2021-2022</copyright>
-    <lastBuildDate>Sun, 24 Apr 2022 20:42:46 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Apr 2022 18:26:04 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Laravel</title>
+      <link>https://www.raisachin.com.np/tags/laravel/</link>
+      <pubDate>Wed, 27 Apr 2022 18:26:04 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/tags/laravel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Package</title>
+      <link>https://www.raisachin.com.np/tags/package/</link>
+      <pubDate>Wed, 27 Apr 2022 18:26:04 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/tags/package/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Plugin</title>
       <link>https://www.raisachin.com.np/tags/plugin/</link>
-      <pubDate>Sun, 24 Apr 2022 20:42:46 +0545</pubDate>
+      <pubDate>Wed, 27 Apr 2022 18:26:04 +0545</pubDate>
       
       <guid>https://www.raisachin.com.np/tags/plugin/</guid>
       <description></description>
@@ -26,15 +44,6 @@
       <pubDate>Sun, 24 Apr 2022 20:42:46 +0545</pubDate>
       
       <guid>https://www.raisachin.com.np/tags/wordpress/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Laravel</title>
-      <link>https://www.raisachin.com.np/tags/laravel/</link>
-      <pubDate>Fri, 22 Apr 2022 20:16:29 +0545</pubDate>
-      
-      <guid>https://www.raisachin.com.np/tags/laravel/</guid>
       <description></description>
     </item>
     

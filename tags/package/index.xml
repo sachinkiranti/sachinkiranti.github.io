@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Plugins on Rai Sachin</title>
-    <link>https://www.raisachin.com.np/plugins/</link>
-    <description>Recent content in Plugins on Rai Sachin</description>
+    <title>Package on Rai Sachin</title>
+    <link>https://www.raisachin.com.np/tags/package/</link>
+    <description>Recent content in Package on Rai Sachin</description>
     <image>
       <url>https://www.raisachin.com.np/img/logo.png</url>
       <link>https://www.raisachin.com.np/img/logo.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© sachinkiranti 2021-2022</copyright>
-    <lastBuildDate>Wed, 27 Apr 2022 18:26:04 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/plugins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Apr 2022 18:26:04 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/tags/package/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Laravel Nepal Rastra Bank Forex Api</title>
       <link>https://www.raisachin.com.np/plugins/laravel-nepal-rastra-bank-forex-api/</link>
@@ -21,21 +21,6 @@
 Installation Installation is straightforward, setup is similar to every other Laravel Packages.
 1. Install via Composer Begin by pulling in the package through Composer:
 1  composer require sachinkiranti/nrb-forex-api   2. Define the Service Provider and alias Note: This package supports the new auto discovery features of Laravel &amp;gt;=5.</description>
-    </item>
-    
-    <item>
-      <title>Wordpress Password Hash Generator</title>
-      <link>https://www.raisachin.com.np/plugins/wp-password-hash-generator/</link>
-      <pubDate>Sun, 24 Apr 2022 20:42:46 +0545</pubDate>
-      
-      <guid>https://www.raisachin.com.np/plugins/wp-password-hash-generator/</guid>
-      <description>This plugin simply generates the wordpress hash password and user password update sql query.
-Installation Download the zip file of the repository or clone the repository in your wp-content/plugins
-  Download the zip file
-As traditionally upload the plugin to your wordpress site and activate 😃 .
-  Clone the repository
-1  git clone git@github.com:sachinkiranti/wp-password-hash-generator.git   Activate it!
-  Usage Add the shortcode to wordpress POST/PAGE or anywhere you want to :</description>
     </item>
     
   </channel>
