@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GitHub on Rai Sachin</title>
+    <link>https://www.raisachin.com.np/categories/github/</link>
+    <description>Recent content in GitHub on Rai Sachin</description>
+    <image>
+      <url>https://www.raisachin.com.np/img/logo.png</url>
+      <link>https://www.raisachin.com.np/img/logo.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© sachinkiranti 2021-2022</copyright>
+    <lastBuildDate>Tue, 18 Jul 2023 22:09:54 +0545</lastBuildDate><atom:link href="https://www.raisachin.com.np/categories/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to preview public github html repo without downloading</title>
+      <link>https://www.raisachin.com.np/posts/how-to-preview-public-github-html-repo-without-downloading/</link>
+      <pubDate>Tue, 18 Jul 2023 22:09:54 +0545</pubDate>
+      
+      <guid>https://www.raisachin.com.np/posts/how-to-preview-public-github-html-repo-without-downloading/</guid>
+      <description>I&amp;rsquo;m going to cover interesting and useful tips using Github.
+There are many public repositories out there that contain HTML pages. If you don’t want to download the whole repo but want to take a peek at the design preview only, you can do so.
+To preview the file, follow these steps:   First, obtain the full URL of the file, such as: https://github.com/sachinkiranti/hello-world/blob/main/index.html
+  Next, append the obtained URL to https://htmlpreview.</description>
+    </item>
+    
+  </channel>
+</rss>

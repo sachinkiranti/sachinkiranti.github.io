@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.raisachin.com.np/posts/how-to-preview-public-github-html-repo-without-downloading/</loc>
+    <lastmod>2023-07-18T22:09:54+05:45</lastmod>
+  </url><url>
     <loc>https://www.raisachin.com.np/posts/how-to-recover-lost-laravel-migration-files-from-an-existing-database/</loc>
     <lastmod>2022-04-22T20:16:29+05:45</lastmod>
   </url><url>
@@ -15,7 +18,25 @@
     <lastmod>2021-08-16T13:59:55+05:45</lastmod>
   </url><url>
     <loc>https://www.raisachin.com.np/categories/</loc>
-    <lastmod>2022-04-29T03:11:06+05:45</lastmod>
+    <lastmod>2023-07-18T22:09:54+05:45</lastmod>
+  </url><url>
+    <loc>https://www.raisachin.com.np/tags/github/</loc>
+    <lastmod>2023-07-18T22:09:54+05:45</lastmod>
+  </url><url>
+    <loc>https://www.raisachin.com.np/categories/github/</loc>
+    <lastmod>2023-07-18T22:09:54+05:45</lastmod>
+  </url><url>
+    <loc>https://www.raisachin.com.np/posts/</loc>
+    <lastmod>2023-07-18T22:09:54+05:45</lastmod>
+  </url><url>
+    <loc>https://www.raisachin.com.np/</loc>
+    <lastmod>2023-07-18T22:09:54+05:45</lastmod>
+  </url><url>
+    <loc>https://www.raisachin.com.np/tags/</loc>
+    <lastmod>2023-07-18T22:09:54+05:45</lastmod>
+  </url><url>
+    <loc>https://www.raisachin.com.np/tags/tips/</loc>
+    <lastmod>2023-07-18T22:09:54+05:45</lastmod>
   </url><url>
     <loc>https://www.raisachin.com.np/plugins/laravel-aakash-sms/</loc>
     <lastmod>2022-04-29T03:11:06+05:45</lastmod>
@@ -35,13 +56,7 @@
     <loc>https://www.raisachin.com.np/plugins/</loc>
     <lastmod>2022-04-29T03:11:06+05:45</lastmod>
   </url><url>
-    <loc>https://www.raisachin.com.np/</loc>
-    <lastmod>2022-04-29T03:11:06+05:45</lastmod>
-  </url><url>
     <loc>https://www.raisachin.com.np/tags/sms/</loc>
-    <lastmod>2022-04-29T03:11:06+05:45</lastmod>
-  </url><url>
-    <loc>https://www.raisachin.com.np/tags/</loc>
     <lastmod>2022-04-29T03:11:06+05:45</lastmod>
   </url><url>
     <loc>https://www.raisachin.com.np/plugins/laravel-nepal-rastra-bank-forex-api/</loc>
@@ -61,12 +76,6 @@
   </url><url>
     <loc>https://www.raisachin.com.np/plugins/wp-password-hash-generator/</loc>
     <lastmod>2022-04-24T20:42:46+05:45</lastmod>
-  </url><url>
-    <loc>https://www.raisachin.com.np/posts/</loc>
-    <lastmod>2022-04-22T20:16:29+05:45</lastmod>
-  </url><url>
-    <loc>https://www.raisachin.com.np/tags/tips/</loc>
-    <lastmod>2022-04-22T20:16:29+05:45</lastmod>
   </url><url>
     <loc>https://www.raisachin.com.np/posts/how-to-cause-an-intentional-error-php/</loc>
     <lastmod>2022-04-07T23:55:18+05:45</lastmod>
